@@ -42,6 +42,6 @@ DependAssist integrates seamlessly with your existing JIRA workflows, ensuring t
 
 ## Getting Started
 
-Ready to take control of your dependency management? Head over to the [Installation Guide](Installation.md) to get started. Explore the [Configuration](Configuration.md) section to tailor DependAssist to your organization's needs.
+Ready to take control of your dependency management? Head over to the [Installation Guide](Installation.md) to get started. Explore the [Configuration](Advanced_configuration.md) section to tailor DependAssist to your organization's needs.
 
 DependAssist is here to transform the way you manage vulnerabilities, ensuring that your projects remain secure and your team stays productive. Let's secure your dependencies, one ticket at a time!
