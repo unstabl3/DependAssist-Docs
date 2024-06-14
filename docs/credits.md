@@ -1,0 +1,1 @@
+The severity calculation matrix used in DependAssist is based on the work of [Goutham Madhwaraj](https://barriersec.com/author/goutham/). You can learn more about **Goutham Madhwaraj** and his contributions to the cybersecurity community on his [LinkedIn profile](https://sg.linkedin.com/in/goutham-madhwaraj-4999aa38).

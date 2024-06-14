@@ -1,3 +1,86 @@
 site_name: DependAssist-Docs
 theme:
   name: 'material'
+  logo: assets/logo.webp
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.sections
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - toc.follow
+    - content.tabs.link
+    - content.code.copy
+    - content.action.edit
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  language: en
+  font:
+    text: Roboto
+    code: Roboto Mono
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/unstabl3/DependAssist
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/shubham-chaskar/
+      name: Linkedin
+  favicon: assets/favicon.ico
+  manifest: assets/site.webmanifest
+nav:
+  - Home: index.md
+  - Installation: Installation.md
+  - Configuration:
+      - Sensitive Tokens: Sensitive_tokens.md
+      - Creating JIRA API Key: Creating_JIRA_API_Key.md
+      - Creating GitHub API Key: Creating_GitHub_API_Key.md
+      - Basic Configuration: Basic_configuration.md
+      - Advanced Configuration: Advanced_configuration.md
+  - Usage: usage.md
+  - Flow and Features: detailedInformation.md
+  - Severity-Calculation: Severitycalculation.md
+  - Screenshots: screenshots.md
+  - FAQ: faq.md
+  - Credits: credits.md
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - footnotes
+  - meta
+  - def_list
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.betterem
+  - pymdownx.magiclink
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-]+'
+  - git-revision-date-localized:
+      enabled: true
+      fallback_to_build_date: true
+  - mermaid2:
+      arguments: {}
+  - minify:
+      minify_html: true
+  - redirects
